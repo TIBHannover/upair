@@ -1,0 +1,72 @@
+
+body {
+    background: #fff;
+    color: #222;
+}
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+.subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.4em;
+}
+.authors a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #2d6cdf;
+    font-weight: 500;
+}
+.authors a:hover {
+    text-decoration: underline;
+}
+.affiliations i {
+    font-size: 1.3rem;
+    margin-right: 0.3em;
+    color: #f39c12;
+}
+.affiliations .divider {
+    margin: 0 0.5em;
+    color: #bbb;
+}
+.badge-pill-btn {
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 0.5em 1.2em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    background: #222;
+    color: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+.badge-pill-btn:hover {
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+}
+.highlight {
+    font-size: 1.1rem;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    color: #d32f2f;
+    font-weight: 500;
+}
+.highlight .new {
+    color: #d32f2f;
+    font-weight: bold;
+}
+.text-justify {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
+@media (max-width: 600px) {
+    .title { font-size: 2rem; }
+    .subtitle { font-size: 1.1rem; }
+}
