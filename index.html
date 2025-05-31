@@ -6,12 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>MPAIR: Multimodal Patent Image Retrieval</title>
+    <title>UPAIR: Utility PAtent Image Retrieval Benchmark</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="/mpair/static/css/styles.css" rel="stylesheet">
+    <link href="/home/awale/Desktop/upair/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -20,8 +20,61 @@
     <div class="container py-5">
         <div class="text-center">
             
-            <div class="title">MPAIR: Multimodal Patent Image Retrieval</div>
+            <div class="title">UPAIR: Utility PAtent Image Retrieval Benchmark</div>
+            <div class="subtitle mb-2">Multimodal Patent Image Retrieval Benchmark for Utility Patents</div>
 
+            <div class="authors mb-2">
+                <a href="https://sushilawale.com" target="_blank">Sushil Awale</a><sup>1</sup>,
+                <a href="https://eric-mb.github.io/" target="_blank">Eric Müller-Budack</a><sup>1</sup>,
+                <a href="#">Rahim Delaviz</a><sup>2</sup>,
+                <a href="https://orcid.org/0000-0003-0918-6297" target="_blank">Ralph Ewerth</a><sup>1,3,4</sup>
+            </div>
+
+            <div class="affiliations mb-2">
+                <sup>1</sup>TIB - Leibniz Information Centre for Science and Technology, Hannover, Germany
+                <br />
+                <sup>2</sup>European Patent Office, The Hague, The Netherlands
+                <br />
+                <sup>3</sup>University of Marburg and hessian.AI - Hessian Center for Artificial Intelligence, Marburg,
+                Germany
+                <br />
+                <sup>4</sup>L3S Research Center, Leibniz University Hannover, Hannover, Germany
+            </div>
+
+            <div class="my-4">
+                <!-- <a href="#" class="badge-pill-btn"><i class="bi bi-file-earmark-text"></i> arXiv</a> -->
+                <a href="https://github.com/TIBHannover/upair" target="_blank" class="badge-pill-btn"><i class="bi bi-code-slash"></i> Code</a>
+                <a href="https://github.com/TIBHannover/upair" target="_blank" class="badge-pill-btn"><i class="bi bi-archive"></i> Dataset</a>
+                <a href="upair/awale_acmmm_2025_upair_supplementary.pdf" class="badge-pill-btn"><i class="bi bi-file-earmark-text"></i> Supplementary Material</a>
+            </div>
+            
+            <div class="text-justify mx-auto wh">
+                <p>
+                    We introduce <strong>UPAIR</strong>, a novel human-annotated benchmark for evaluating multimodal image retrieval in the context of utility patents. UPAIR addresses current limitations by providing:
+                </p>
+                <ol>
+                    <li>
+                        <strong>Three-dimensional relevance annotations</strong> between patent image pairs:
+                        <ul>
+                        <li><strong>Visual similarity</strong> &mdash; resemblance in appearance</li>
+                        <li><strong>Semantic similarity</strong> &mdash; functional or conceptual correspondence</li>
+                        <li><strong>Part-whole relationships</strong> &mdash; whether one image is a component of another</li>
+                        </ul>
+                    </li>
+                    <br/>
+                    <li>
+                        <strong>Challenging candidate sampling</strong> using multiple textual features and vision encoders, ensuring a balanced and realistic dataset.
+                    </li>
+                    <br/>
+                    <li>
+                        <strong>Large-scale image-text corpus</strong> for training vision-language models with contrastive learning.
+                    </li>
+                    <br/>
+                    <li>
+                        <strong>Domain-adapted CLIP baseline</strong> &mdash; we adapt and evaluate the CLIP model on UPAIR, providing a strong starting point for future research.
+                    </li>
+                </ol>
+            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
