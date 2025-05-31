@@ -1,1 +1,1 @@
-# MPAIR: Multimodal PAtent Image Retrieval
+# UPAIR: Utility PAtent Image Retrieval Benchmark
