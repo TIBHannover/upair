@@ -1,0 +1,53 @@
+query_images: 'data/query_images_per_cpc_section.json'
+query_dir: 'data/query_patents/sections/'
+citations_data: 'data/query_patents/citations_data.json'
+
+thresholds_dict: 'data/thresholds.json'
+
+indices:
+  title:
+    dim: 1024
+    dir: 'indices/paecter'
+    metadata: 'titles'
+  desc:
+    dim: 1024
+    dir: 'indices/paecter'
+    metadata: 'descs'
+  label:
+    dim: 1024
+    dir: 'indices/paecter'
+    metadata: 'labels'
+  clip:
+    dim: 1024
+    dir: 'indices/clip_dfn5b'
+    metadata: 'images'
+  patentnet:
+    dim: 512
+    dir: 'indices/patentnet'
+    metadata: 'images'
+  resnext101:
+    dim: 2048
+    dir: 'indices/resnext101'
+    metadata: 'images'
+
+cited_sample_size: 5
+
+groups:
+  positive:
+    easy:
+      text_percentile_range: ["100.000", "97.000"]
+      image_percentile_range: ["100.000", "97.000"]
+      size: 5
+    hard:
+      text_percentile_range: ["100.000", "97.000"]
+      image_percentile_range: ["95.000", "92.000"]
+      size: 5
+  negative:
+    easy:
+      text_percentile_range: ["90.000", "87.000"]
+      image_percentile_range: ["85.000", "82.000"]
+      size: 80
+    hard:
+      text_percentile_range: ["90.000", "87.000"]
+      image_percentile_range: ["100.000", "97.000"]
+      size: 5
