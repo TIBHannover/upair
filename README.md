@@ -28,7 +28,7 @@ $ source .env/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-2. Download PatentNet weights from ![Link](https://www.dropbox.com/scl/fo/n3tjkvsxfmi7cvacei6wj/h?rlkey=xf5686zlzmlkkhr8k3eajxo8k&dl=0)
+2. Download PatentNet weights from [Link](https://www.dropbox.com/scl/fo/n3tjkvsxfmi7cvacei6wj/h?rlkey=xf5686zlzmlkkhr8k3eajxo8k&dl=0)
 
 3. Build indices for each metadata and each vision encoder
 
@@ -41,3 +41,30 @@ $ python3 src/index.py
 ```bash
 $ python3 src/main.py
 ```
+
+### Adapting CLIP for Utilit Patents
+
+We adapt CLIP for utility patents by pairing patent figures with their corresponding text (e.g., descriptions or component labels) and training on these image-text pairs. We use the [open_clip_torch](https://github.com/mlfoundations/open_clip) Python library to implement and fine-tune this approach for patent data.
+
+The hyperparameter settings can be found in the [supplementary materials](https://tibhannover.github.io/upair/awale_acmmm_2025_upair_supplementary.pdf)
+
+### Evaluation
+
+1. Download the UPAIR Benchmark
+
+Download the dataset from [link](https://zenodo.org/records/15564780/files/upair.zip?download=1) or
+
+```bash
+$ wget https://zenodo.org/records/15564780/files/upair.zip
+$ unzip upair.zip -d dataset/
+```
+
+2. Run evaluation
+
+```bash
+$ python3 evaluation/run.py
+```
+
+# License
+
+This work is published under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. For details please check the [LICENSE](https://raw.githubusercontent.com/TIBHannover/upair/refs/heads/main/LICENSE) file in the repository.
