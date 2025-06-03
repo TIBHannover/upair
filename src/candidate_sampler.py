@@ -92,11 +92,11 @@ class CandidateSampler:
 
         self.indices = {}
 
-        for index, config in tqdm(self.config['indices'].items(), desc='Indexing'):
+        for index, index_config in tqdm(self.config['indices'].items(), desc='Indexing'):
             
-            patent_index = PatentIndex(dim=config['dim'])
+            patent_index = PatentIndex(dim=index_config['dim'])
             patent_index.start_index(
-                load_dir=config['dir'], metadata=config['metadata']
+                load_dir=self.config['index_dir'], metadata=index
             )
             self.indices[index] = patent_index
 
