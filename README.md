@@ -42,13 +42,13 @@ $ python3 src/index.py
 $ python3 src/main.py
 ```
 
-### Adapting CLIP for Utilit Patents
+## Adapting CLIP for Utility Patents
 
 We adapt CLIP for utility patents by pairing patent figures with their corresponding text (e.g., descriptions or component labels) and training on these image-text pairs. We use the [open_clip_torch](https://github.com/mlfoundations/open_clip) Python library to implement and fine-tune this approach for patent data.
 
 The hyperparameter settings can be found in the [supplementary materials](https://tibhannover.github.io/upair/awale_acmmm_2025_upair_supplementary.pdf)
 
-### Evaluation
+## Evaluation
 
 1. Download the UPAIR Benchmark
 
@@ -65,6 +65,6 @@ $ unzip upair.zip -d dataset/
 $ python3 evaluation/run.py
 ```
 
-# License
+## License
 
 This work is published under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. For details please check the [LICENSE](https://raw.githubusercontent.com/TIBHannover/upair/refs/heads/main/LICENSE) file in the repository.
