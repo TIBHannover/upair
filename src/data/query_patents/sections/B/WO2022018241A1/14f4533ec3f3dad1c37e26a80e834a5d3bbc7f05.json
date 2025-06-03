@@ -1,0 +1,29 @@
+{
+    "title": "REAR SUSPENSION DEVICE, SYSTEM AND METHOD FOR A BICYCLE",
+    "fig_desc": "Figure 2. Perspective view of an embodiment, together with exploded detail A, of a rear suspension device of the present invention, located in situ in a MDFYC (Foxy Carbon) bicycle frame, showing first pivot (1), second pivot (2), third pivot (3), fourth pivot (4), first sensor unit (5), linkage unit (6), first axial compression shock absorber (7), main board (8), housing for the second magnet (9) and first magnet (10)",
+    "all_fig_descs": [
+        "Figure 2. Perspective view of an embodiment, together with exploded detail A, of a rear suspension device of the present invention, located in situ in a MDFYC (Foxy Carbon) bicycle frame, showing first pivot (1), second pivot (2), third pivot (3), fourth pivot (4), first sensor unit (5), linkage unit (6), first axial compression shock absorber (7), main board (8), housing for the second magnet (9) and first magnet (10)",
+        " Figure 2). In Figure 2, the front suspension device includes a second axial compression shock absorber, a magnetic flux sensor, AD22151 (803) located in one side of the casing of the main board (7), that is aligned with a cylindrical second magnet (9), attached to one end of the second shock absorber, so that when the suspension moves axially, the relative movement between the magnet (9) and the magnetic flux sensor (803) generates a change in voltage that is detected in said sensor",
+        "In Figure 2, the rear suspension device includes an first axial compression shock absorber (7) floating in a multi-pivot Zero suspension configuration that compresses it from both ends upon upward displacement of the rear axle of the bicycle relative to the frame"
+    ],
+    "component_labels": [
+        "first sensor unit",
+        "first pivot",
+        "main board",
+        "ar ei",
+        "linkage unit",
+        "first magnet",
+        "rear",
+        "second pivot",
+        "fourth pivot",
+        "magnetized cylindrical first magnet",
+        "first axial compression shock absorber",
+        "second magnet",
+        "cylindrical second magnet",
+        "second",
+        "first shock absorber",
+        "magnet",
+        "third pivot",
+        "arel"
+    ]
+}

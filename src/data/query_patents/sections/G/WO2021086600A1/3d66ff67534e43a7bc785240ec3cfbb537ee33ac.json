@@ -1,0 +1,22 @@
+{
+    "title": "SELECTIVE RESPONSE RENDERING FOR VIRTUAL ASSISTANTS",
+    "fig_desc": " The first client 150 and/or second client 170 can execute an operating system such as Microsoft Windows\u00ae, Apple macOS\u00ae, Apple iOS\u00ae, Apple iPadOS\u00ae, Android, Unix\u00ae, or other operating system, and include memory, storage, a network interface, and other computer hardware not shown in FIG. 1A. The first client 150 and/or second client 190 can each be VA-enabled devices configured to render responses to spoken utterances issued by a user for a VA service",
+    "all_fig_descs": [
+        " The first client 150 and/or second client 170 can execute an operating system such as Microsoft Windows\u00ae, Apple macOS\u00ae, Apple iOS\u00ae, Apple iPadOS\u00ae, Android, Unix\u00ae, or other operating system, and include memory, storage, a network interface, and other computer hardware not shown in FIG. 1A. The first client 150 and/or second client 190 can each be VA-enabled devices configured to render responses to spoken utterances issued by a user for a VA service"
+    ],
+    "component_labels": [
+        "first cameras",
+        "second cameras",
+        "environment",
+        "spoken utterance",
+        "dotted line",
+        "sections",
+        "display",
+        "eyes",
+        "first user",
+        "second client",
+        "selected first client",
+        "document",
+        "first client"
+    ]
+}

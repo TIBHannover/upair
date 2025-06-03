@@ -1,0 +1,42 @@
+{
+    "title": "SHOVEL AND SHOVEL MANAGEMENT SYSTEM",
+    "fig_desc": "FIG. 1 is a side view of a shovel according to an embodiment of the present invention",
+    "all_fig_descs": [
+        "FIG. 1 is a side view of a shovel according to an embodiment of the present invention",
+        "FIG. 1 is a side view of a shovel 100 serving as an excavator according to an embodiment of the present invention"
+    ],
+    "component_labels": [
+        "turning hydraulic motor",
+        "bucket cylinder",
+        "cabin",
+        "boom",
+        "engine",
+        "conduit cd",
+        "bucket link",
+        "turning mechanism",
+        "boom cylinder",
+        "right traveling hydraulic motor",
+        "bucket",
+        "device",
+        "single shovel",
+        "storage device",
+        "display device",
+        "line segment",
+        "input device",
+        "shovel",
+        "ch",
+        "center bypass conduit",
+        "arm",
+        "st",
+        "audio output device",
+        "lower traveling body",
+        "gd",
+        "arm cylinder",
+        "parallel conduit",
+        "cylinder",
+        "attached display device",
+        "hook",
+        "upper turning body",
+        "controller"
+    ]
+}

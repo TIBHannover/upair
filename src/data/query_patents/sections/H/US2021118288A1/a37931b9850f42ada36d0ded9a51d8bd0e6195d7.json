@@ -1,0 +1,13 @@
+{
+    "title": "Attention-Based Control of Vehicular Traffic",
+    "fig_desc": "FIG. 3 shows a distributed arrangement of attention based controllers according to some embodiments",
+    "all_fig_descs": [
+        "FIG. 3 shows a distributed arrangement of attention based controllers according to some embodiments",
+        "FIG. 3 shows a distributed arrangement of attention-based controllers 301 according to some embodiments"
+    ],
+    "component_labels": [
+        "adjacent controllers",
+        "control",
+        "observation"
+    ]
+}

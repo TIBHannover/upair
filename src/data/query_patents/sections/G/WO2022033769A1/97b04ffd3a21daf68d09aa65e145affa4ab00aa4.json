@@ -1,0 +1,22 @@
+{
+    "title": "BIOMETRIC PAYMENT CARD ENROLLMENT NOTIFICATION",
+    "fig_desc": " FIG. 2 is a perspective view of a POS terminal and a biometric card used to perform a transaction via the POS terminal",
+    "all_fig_descs": [
+        " FIG. 2 is a perspective view of a POS terminal and a biometric card used to perform a transaction via the POS terminal"
+    ],
+    "component_labels": [
+        "pos terminal",
+        "biometric device",
+        "biometric terminal",
+        "biometric card",
+        "slot",
+        "merchant pos terminal",
+        "terminal",
+        "contact pad",
+        "display",
+        "biometric sensor",
+        "biometric payment card",
+        "keypad",
+        "card"
+    ]
+}

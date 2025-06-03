@@ -1,0 +1,26 @@
+{
+    "title": "BIOREACTOR APPARATUS AND METHOD FOR IN-VITRO HEART SIMULATION",
+    "fig_desc": "FIG. 2 shows a flow chart illustrating one mode of operation of a bioreactor apparatus such as that illustrated in FIG. 1",
+    "all_fig_descs": [
+        "FIG. 2 shows a flow chart illustrating one mode of operation of a bioreactor apparatus such as that illustrated in FIG. 1",
+        "FIG. 2 shows a flow chart illustrating one possible mode of operation of a bioreactor apparatus, such as that shown in FIG. 1. This method includes a first calibration step in which the response of the tissue to electrical stimulus is measured, and then this first movement data obtained during this first calibration step is used to control the mounting during subsequent application of the stimulus"
+    ],
+    "component_labels": [
+        "rail",
+        "actuator",
+        "bioreactor vessel",
+        "reactor vessel",
+        "base",
+        "rigid chassis",
+        "chassis",
+        "container",
+        "sensor rod",
+        "rod",
+        "recess",
+        "slidable base",
+        "seat",
+        "chassis plate",
+        "vessel",
+        "lid"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "title": "WIND TURBINE OPERATION IN EXTREME WIND CONDITIONS",
+    "fig_desc": "Figure 1 shows a wind turbine according to an exemplary embodiment of the invention ",
+    "all_fig_descs": [
+        "Figure 1 shows a wind turbine according to an exemplary embodiment of the invention ",
+        " Figure 1 shows a wind turbine 100 according to an embodiment of the invention "
+    ],
+    "component_labels": [
+        "rotational axis",
+        "rotor blades",
+        "blade",
+        "depicted control system",
+        "electromechanical transducer",
+        "stator arrangement",
+        "generator",
+        "hub",
+        "control system",
+        "blade angle adj ustment device",
+        "yaw system",
+        "brake",
+        "shaft",
+        "tower",
+        "blades",
+        "devices",
+        "wind parameter determination device",
+        "orientation determination device",
+        "adj ustment device",
+        "nacelle",
+        "gear box",
+        "wind turbine",
+        "rotor arrangement"
+    ]
+}

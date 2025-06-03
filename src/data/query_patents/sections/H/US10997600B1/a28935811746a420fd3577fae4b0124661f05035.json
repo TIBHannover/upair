@@ -1,0 +1,13 @@
+{
+    "title": "Data transaction scheduling using crowd-sourced network data",
+    "fig_desc": "FIG. 1 is a diagram illustrating an example system for crowd-sourcing network data",
+    "all_fig_descs": [
+        "FIG. 1 is a diagram illustrating an example system for crowd-sourcing network data",
+        "FIG. 1 is a diagram illustrating an example system 100 for crowd-sourcing network data"
+    ],
+    "component_labels": [
+        "servers",
+        "example system",
+        "system"
+    ]
+}

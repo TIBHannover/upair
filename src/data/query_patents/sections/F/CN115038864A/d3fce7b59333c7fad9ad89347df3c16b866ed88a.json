@@ -1,0 +1,20 @@
+{
+    "title": "Nacelle for wind turbine",
+    "fig_desc": "Figure 2 shows a nacelle of a wind turbine",
+    "all_fig_descs": [
+        "Figure 2 shows a nacelle of a wind turbine"
+    ],
+    "component_labels": [
+        "primary unit",
+        "tower",
+        "auxiliary unit",
+        "main unit",
+        "rotor blades",
+        "cooling area",
+        "secondary unit",
+        "auxiliary units",
+        "additional interface",
+        "other auxiliary unit",
+        "separate secondary units"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "title": "APPARATUS AND METHOD FOR SPEAKER TUNING AND AUTOMATIC DIGITAL SIGNAL PROCESSING CONFIGURATION",
+    "fig_desc": "Figure 3 generally depicts a third length-based speaker system for automatic DSP adjustment, according to one embodiment",
+    "all_fig_descs": [
+        "Figure 3 generally depicts a third length-based speaker system for automatic DSP adjustment, according to one embodiment"
+    ],
+    "component_labels": [
+        "single column",
+        "housing",
+        "array",
+        "wires",
+        "speaker housing",
+        "resistor",
+        "various wires",
+        "speaker system",
+        "audio controller",
+        "posts",
+        "post",
+        "system",
+        "resistors",
+        "speaker array",
+        "various posts",
+        "single post",
+        "single pillar",
+        "speaker",
+        "measured voltage",
+        "pillar",
+        "single resistor",
+        "controller"
+    ]
+}

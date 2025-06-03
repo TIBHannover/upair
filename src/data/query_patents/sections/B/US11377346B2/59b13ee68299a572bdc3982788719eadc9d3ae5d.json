@@ -1,0 +1,20 @@
+{
+    "title": "Low-noise multi axis MEMS accelerometer",
+    "fig_desc": "FIG. 1 is a schematic drawing of a MEMS accelerometer according to a first embodiment of the invention",
+    "all_fig_descs": [
+        "FIG. 1 is a schematic drawing of a MEMS accelerometer according to a first embodiment of the invention",
+        " The view of FIG. 1 is taken through the middle of the structure layer of the MEMS accelerometer 101, i",
+        " The arrangement depicted in FIG. 1 is advantageous because it allows a single anchor point to be used for both stationary electrodes 107a, 107b, which eliminates movement of the stationary electrodes relative to one another due to deformations of the accelerometer, e"
+    ],
+    "component_labels": [
+        "arms",
+        "springs",
+        "proof mass",
+        "masses",
+        "spring",
+        "points",
+        "accelerometers",
+        "accelerometer",
+        "mass"
+    ]
+}

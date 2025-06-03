@@ -1,0 +1,17 @@
+{
+    "title": "Power control method and device",
+    "fig_desc": "FIG. 1 is a schematic diagram of a system architecture to which a technical solution provided in an embodiment of this application is applicable",
+    "all_fig_descs": [
+        "FIG. 1 is a schematic diagram of a system architecture to which a technical solution provided in an embodiment of this application is applicable",
+        "It should be noted that the system architecture shown in FIG. 1 is merely used as an example, but is not used to limit the technical solutions in this application"
+    ],
+    "component_labels": [
+        "ues",
+        "-s",
+        "network device",
+        "slots",
+        "slot",
+        "information",
+        "ue"
+    ]
+}

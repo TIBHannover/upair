@@ -1,0 +1,19 @@
+{
+    "title": "Image reprojection based on intra-pupil distance",
+    "fig_desc": "FIG. 1 shows an example wearable computing system within an environment",
+    "all_fig_descs": [
+        "FIG. 1 shows an example wearable computing system within an environment"
+    ],
+    "component_labels": [
+        "chair image",
+        "computing device",
+        "couch",
+        "door image",
+        "user",
+        "environment",
+        "couch image",
+        "computing system",
+        "device",
+        "door"
+    ]
+}

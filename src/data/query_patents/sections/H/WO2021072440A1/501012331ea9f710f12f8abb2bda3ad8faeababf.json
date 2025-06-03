@@ -1,0 +1,20 @@
+{
+    "title": "SCHEDULING VIA WIRELESS COMMUNICATION RELAY",
+    "fig_desc": " Fig. 1 is a block diagram conceptually illustrating an example of a wireless communication network, in accordance with various aspects of the present disclosure",
+    "all_fig_descs": [
+        " Fig. 1 is a block diagram conceptually illustrating an example of a wireless communication network, in accordance with various aspects of the present disclosure",
+        " Fig. 1 is a diagram illustrating a wireless network 100 in which aspects of the present disclosure may be practiced",
+        " As indicated above, Fig. 1 is provided as an example"
+    ],
+    "component_labels": [
+        "macro cell",
+        "macro bs",
+        "wireless network",
+        "femto cell",
+        "bs",
+        "network controller",
+        "controller",
+        "ue",
+        "pico cell"
+    ]
+}

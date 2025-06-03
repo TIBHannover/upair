@@ -1,0 +1,28 @@
+{
+    "title": "THERMAL-CONTROL SYSTEM OF A MESH NETWORK DEVICE AND ASSOCIATED MESH NETWORK DEVICES",
+    "fig_desc": "FIG. 1 illustrates example details including a front isometric view and an exploded view of a mesh network device 102",
+    "all_fig_descs": [
+        "FIG. 1 illustrates example details including a front isometric view and an exploded view of a mesh network device 102",
+        " FIG. 1 illustrates example details 100 including a front isometric view and an exploded view of a mesh network device 102"
+    ],
+    "component_labels": [
+        "pcb",
+        "spreader",
+        "mesh network device",
+        "example mesh network device",
+        "internal heat load",
+        "example details",
+        "housing component",
+        "shield",
+        "heat-shield heat spreader",
+        "heat sink",
+        "heat- sink heat spreader",
+        "sink",
+        "thermal-control system",
+        "base",
+        "heat shield",
+        "heat-sink heat spreader",
+        "thermal- control system",
+        "component"
+    ]
+}

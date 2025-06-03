@@ -1,0 +1,29 @@
+{
+    "title": "ADJUSTING INSULIN THERAPY SETTING BASED ON VARIABILITY OF BLOOD GLUCOSE VALUES",
+    "fig_desc": " FIG. 1 shows an example of a system for diabetes management",
+    "all_fig_descs": [
+        " FIG. 1 shows an example of a system for diabetes management",
+        " FIG. 1 shows an example of a system 100 for diabetes management"
+    ],
+    "component_labels": [
+        "monitor",
+        "insulin injection pen",
+        "display",
+        "dials",
+        "remote user interface device",
+        "graph",
+        "system",
+        "glucose monitor",
+        "information",
+        "button",
+        "caps",
+        "point indicator",
+        "pen cap",
+        "insulin injection pens",
+        "window",
+        "continuation",
+        "device",
+        "text",
+        "bolus calculator button"
+    ]
+}

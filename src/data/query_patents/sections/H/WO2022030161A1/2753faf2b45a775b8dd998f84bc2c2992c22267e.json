@@ -1,0 +1,27 @@
+{
+    "title": "METHOD, DEVICE-TO-DEVICE COMMUNICATION SYSTEM, SECOND DEVICE, COMPUTER PROGRAM, AND PROCESSING CIRCUIT FOR PROVIDING ASSISTANCE INFORMATION",
+    "fig_desc": "[Fig. 10a]Figure 10a relates to the present disclosure and especially relate to various ways of selecting candidates, among receivers, for emitting assistance information towards a transmitter",
+    "all_fig_descs": [
+        "[Fig. 10a]Figure 10a relates to the present disclosure and especially relate to various ways of selecting candidates, among receivers, for emitting assistance information towards a transmitter"
+    ],
+    "component_labels": [
+        "given rx",
+        "transmitter",
+        "selected rxs",
+        "receivers",
+        "rx",
+        "different rx clusters",
+        "receiver rx",
+        "rxs",
+        "transmitter tx",
+        "candidate rxs",
+        "cluster",
+        "mode",
+        "given receiver rx",
+        "given cluster",
+        "receiver",
+        "gpp nr mode",
+        "candidate rx",
+        "tx"
+    ]
+}

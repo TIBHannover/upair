@@ -1,0 +1,26 @@
+{
+    "title": "MAGNETIC-FIELD MEASURING APPARATUS",
+    "fig_desc": "FIG. 2A is a layout diagram illustrating an example of installation of the magnetic-field measuring apparatus (magnetoencephalograph) of FIG. 1.FIG. 2B is an enlarged partial cross-sectional view of a variation in materials of a wall of a magnetically shielded room",
+    "all_fig_descs": [
+        "FIG. 2A is a layout diagram illustrating an example of installation of the magnetic-field measuring apparatus (magnetoencephalograph) of FIG. 1.FIG. 2B is an enlarged partial cross-sectional view of a variation in materials of a wall of a magnetically shielded room",
+        "FIG. 2A is a layout diagram illustrating an example of installation of the magnetic-field measuring apparatus 100A of FIG. 1. For example, the magnetic-field measuring apparatus 100A illustrated in FIG. 1. For a magnetoencephalograph with a bed 12 on which a subject lies and a dewar 13 (cryogenic container) having a depression in which the head of the subject lying on the bed is located approximately at the center of the magnetically shielded room MSR"
+    ],
+    "component_labels": [
+        "processor",
+        "fll circuitry",
+        "second circuitry",
+        "split bed",
+        "shielding material",
+        "supply",
+        "squid",
+        "shelf",
+        "power supply",
+        "digital integrator",
+        "integrator",
+        "bed",
+        "dewar",
+        "circuitry",
+        "first circuitry",
+        "data processor"
+    ]
+}

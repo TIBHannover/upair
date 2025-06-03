@@ -1,0 +1,20 @@
+{
+    "title": "Chlorine Dioxide Generating Aerosol",
+    "fig_desc": "FIG. 1 is a schematic diagram illustrating an example of an aerosol product of a double structure container",
+    "all_fig_descs": [
+        "FIG. 1 is a schematic diagram illustrating an example of an aerosol product of a double structure container",
+        "FIG. 1 is a schematic diagram illustrating an example of an aerosol product of a double-structure container, and FIG. 2 is a schematic diagram illustrating a cross section of an actuator (discharge mechanism) of the double-structure container of FIG. 2 is-structure container 10 has a metal-made pressure container (outer container) 11 provided with an aerosol valve 12"
+    ],
+    "component_labels": [
+        "swirl passage",
+        "valve",
+        "shared actuator",
+        "double-structure container",
+        "mixing space",
+        "pressure container",
+        "actuator",
+        "aerosol valve",
+        "propellant filling space",
+        "space"
+    ]
+}

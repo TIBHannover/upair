@@ -1,0 +1,37 @@
+{
+    "title": "SUBTERRANEAN WELL TORPEDO DISTRIBUTED ACOUSTIC SENSING SYSTEM AND METHOD",
+    "fig_desc": " For example, deploying the DASFO line into the wellbore using TPWT may include deploying the DAS FO line 900 into the wellbore 120 , as described at least with respect to FIG. 9 . As another example, deploying a DAS FO line into a wellbore using TPWT may include deploying a U-bend DAS FO line 1000 into wellbores 120a and 120b, as described at least with respect to FIG. 10 .The method 1300 may include deploying a seismic source (block 1304)",
+    "all_fig_descs": [
+        " For example, deploying the DASFO line into the wellbore using TPWT may include deploying the DAS FO line 900 into the wellbore 120 , as described at least with respect to FIG. 9 . As another example, deploying a DAS FO line into a wellbore using TPWT may include deploying a U-bend DAS FO line 1000 into wellbores 120a and 120b, as described at least with respect to FIG. 10 .The method 1300 may include deploying a seismic source (block 1304)",
+        " For example, deploying the seismic sources may include positioning the array of seismic sources 906 on the ground surface 112 , as described at least with respect to FIG. 9 . As another example, deploying a seismic source may include positioning an array of seismic sources 1012 on the ground surface 112 , as described at least with respect to FIG. 10 .The method 1300 may include activating a seismic source to generate a seismic signal (block 1306) and recording the resulting seismic signal received at the DAS FO line (block 1308)",
+        " As another example, for at least the DAS FO line 1000 described with respect to FIG. 10, recording the resulting seismic signals received at the DAS FO line may include the well control system 118 recording along the downhole portions 1002a and 1002b disposed in the wellbore 120a and 120b The seismic signals sensed simultaneously by the first DAS FO segment 1004a and the second DAS FO segment 1004b"
+    ],
+    "component_labels": [
+        "illustrated embodiment, well environment",
+        "das fo section",
+        "first das fo segment",
+        "line",
+        "surface",
+        "formation",
+        "bend",
+        "interrogators",
+        "ground surface",
+        "umbilical",
+        "cable",
+        "seismic source",
+        "second das fo sections",
+        "downhole sections",
+        "das fo line",
+        "tpwts",
+        "second das fo line segment",
+        "tpwt",
+        "first das fo section",
+        "well environment",
+        "first das fo line segment",
+        "downhole portions",
+        "seismic sources",
+        "second das fo section",
+        "segment",
+        "downhole portion"
+    ]
+}

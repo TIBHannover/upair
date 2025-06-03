@@ -1,0 +1,13 @@
+{
+    "title": "Compound fertilizer system",
+    "fig_desc": "Figure 2 shows a cross-sectional view of a first compound fertilizer product",
+    "all_fig_descs": [
+        "Figure 2 shows a cross-sectional view of a first compound fertilizer product",
+        " Figure 2 shows an example of a fertilizer product of the first preferred example"
+    ],
+    "component_labels": [
+        "fertilizer product",
+        "layer",
+        "core"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "PROFILING PALLETS AND GOODS IN A WAREHOUSE ENVIRONMENT",
+    "fig_desc": "FIG. 1 depicts an example warehouse environment with a system configured to detect one or more parameters associated with a pallet",
+    "all_fig_descs": [
+        "FIG. 1 depicts an example warehouse environment with a system configured to detect one or more parameters associated with a pallet",
+        "FIG. 1 depicts an example warehouse environment 100 with a system configured to detect one or more parameters associated with a pallet 114"
+    ],
+    "component_labels": [
+        "conveyor belt",
+        "pallet",
+        "frame",
+        "pallet frame",
+        "warehouse environment",
+        "example warehouse environment",
+        "warehouse",
+        "computer server",
+        "moving pallet",
+        "weight scale",
+        "server",
+        "pallet information database",
+        "space",
+        "scanned pallet",
+        "scanning frame"
+    ]
+}

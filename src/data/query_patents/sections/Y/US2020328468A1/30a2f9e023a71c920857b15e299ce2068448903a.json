@@ -1,0 +1,19 @@
+{
+    "title": "SOLID ELECTROLYTE MATERIAL AND BATTERY",
+    "fig_desc": "FIG. 1 is a cross-sectional view showing a schematic configuration of a battery 1000 in a second embodiment",
+    "all_fig_descs": [
+        "FIG. 1 is a cross-sectional view showing a schematic configuration of a battery 1000 in a second embodiment",
+        "FIG. 1 is a cross-sectional view showing a schematic configuration of a battery 1000 in the second embodiment"
+    ],
+    "component_labels": [
+        "particles",
+        "battery",
+        "negative electrode",
+        "referential signs list",
+        "solid electrolyte particles",
+        "positive electrode",
+        "positive electrode active material particles",
+        "negative electrode active material particles",
+        "electrolyte layer"
+    ]
+}
