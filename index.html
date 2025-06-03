@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>UPAIR: Utility PAtent Image Retrieval Benchmark</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
@@ -17,9 +17,9 @@
 </head>
 
 <body>
+
     <div class="container py-5">
         <div class="text-center">
-            
             <div class="title">UPAIR: Utility PAtent Image Retrieval Benchmark</div>
             <div class="subtitle mb-2">Multimodal Patent Image Retrieval Benchmark for Utility Patents</div>
 
@@ -43,36 +43,456 @@
 
             <div class="my-4">
                 <!-- <a href="#" class="badge-pill-btn"><i class="bi bi-file-earmark-text"></i> arXiv</a> -->
-                <a href="https://github.com/TIBHannover/upair" target="_blank" class="badge-pill-btn"><i class="bi bi-code-slash"></i> Code</a>
-                <a href="https://doi.org/10.5281/zenodo.15564780" target="_blank" class="badge-pill-btn"><i class="bi bi-archive"></i> Dataset</a>
-                <a href="awale_acmmm_2025_upair_supplementary.pdf" target="_blank" class="badge-pill-btn"><i class="bi bi-file-earmark-text"></i> Supplementary Material</a>
-            </div>
-            
-            <div class="my-4" style="display: flex; justify-content: center;">
-                <img src="static/images/upair_example.png" alt="UPAIR Example">
+                <a href="https://github.com/TIBHannover/upair" target="_blank" class="badge-pill-btn"><i
+                        class="bi bi-code-slash"></i> Code</a>
+                <a href="https://doi.org/10.5281/zenodo.15564780" target="_blank" class="badge-pill-btn"><i
+                        class="bi bi-archive"></i> Dataset</a>
+                <a href="upair/awale_acmmm_2025_upair_supplementary.pdf" class="badge-pill-btn"><i
+                        class="bi bi-file-earmark-text"></i> Supplementary Material</a>
             </div>
 
-            <div class="text-justify mx-auto wh">
+            <div class="my-1" style="display: flex; justify-content: center;">
+                <figure class="figure text-center">
+                    <img src="upair_example.png" alt="UPAIR Example" class="img-fluid border border-1 shadow">
+                    <figcaption class="figure-caption my-4">
+                        Figure: Comparison of patent retrieval datasets. <br />
+                        Left: Citation- and metadata-based datasets use coarse relevance like citation links or
+                        metadata. Right: Our UPAIRdataset provides multi-dimensional relevance for each query-candidate
+                        pair: visual (appearance), semantic (functional/conceptual), and part-whole (component),
+                        capturing richer relationships between images.
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width-bg py-5">
+
+        <div class="container">
+            <div class="text-justify wh">
                 <p>
-                    We introduce <strong>UPAIR</strong>, a novel human-annotated benchmark for evaluating multimodal image retrieval in the context of utility patents. UPAIR addresses current limitations by providing:
+                    We introduce <strong>UPAIR</strong>, a novel human-annotated benchmark for evaluating multimodal
+                    image retrieval in the context of utility patents. UPAIR addresses current limitations by providing:
                 </p>
                 <ol>
                     <li>
                         <strong>Three-dimensional relevance annotations</strong> between patent image pairs:
                         <ul>
-                        <li><strong>Visual similarity</strong> &mdash; resemblance in appearance</li>
-                        <li><strong>Semantic similarity</strong> &mdash; functional or conceptual correspondence</li>
-                        <li><strong>Part-whole relationships</strong> &mdash; whether one image is a component of another</li>
+                            <li><strong>Visual similarity</strong> &mdash; resemblance in appearance</li>
+                            <li><strong>Semantic similarity</strong> &mdash; functional or conceptual correspondence
+                            </li>
+                            <li><strong>Part-whole relationships</strong> &mdash; whether one image is a component of
+                                another</li>
                         </ul>
                     </li>
-                    <br/>
+                    <br />
                     <li>
-                        <strong>Large-scale image-text corpus</strong> for training vision-language models with contrastive learning.
+                        <strong>Large-scale image-text corpus</strong> for training vision-language models with
+                        contrastive learning.
                     </li>
                 </ol>
             </div>
         </div>
     </div>
+
+    <div class="container my-5">
+
+        <h2 class="text-center mb-4">UPAIR Samples</h2>
+
+        <table class="table table-bordered align-middle text-center">
+            <thead class="table-light">
+                <tr>
+                    <th style="min-width:256px;">Image Pairs</th>
+                    <th>Metadata</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td colspan="3">
+                        <i>Image Pair 1</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/b7d03e316beb49cc33d90d57b0a8e5e4e8702720.png" alt="Query 1"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Query
+                                <a href="https://worldwide.espacenet.com/patent/search?q=WO2022034013A1"
+                                    target="_blank">WO2022034013A1</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>:A SHELL-AND-TUBE HEAT EXCHANGER, METHOD OF EXCHANGING HEAT AND USE OF HEAT
+                            EXCHANGER
+                            <br />
+                            <b>DESCRIPTION</b>: FIG 2A and FIG 2B depict detail views of an embodiment of the
+                            shell-and-tube heat exchanger.
+                            <br />
+                            <b>COMPONENT LABELS</b>: holes, outlet collector pipe, additional spiral baffles, secondary
+                            spiral baffle, collector pipe, primary spiral baffle, first or primary baffle, continuous
+                            and/or essentially straight heat exchange tube, baffle area, perforations, exchanger, spiral
+                            baffle, depicted one or more heat exchange tubes, pipe, perforated baffle area, tubes,
+                            outlet collector pipe, heat exchange tubes, end portion, s, collector pipe inlet, heat
+                            exchange tube
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/2404760241ba4f3d4a542028e0beb59bcd840568.png" alt="Query 1"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Candidate
+                                <a href="https://worldwide.espacenet.com/patent/search?q=US2009301699A1"
+                                    target="_blank">US2009301699A1</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: VERTICAL COMBINED FEED/EFFLUENT HEAT EXCHANGER WITH VARIABLE BAFFLE ANGLE
+                            <br />
+                            <b>DESCRIPTION</b>: FIG. 2 is a schematic drawing of a vertical combined feed/effluent heat
+                            exchanger with variable heat baffle angle according to embodiments disclosed herein.
+                            <br />
+                            <b>COMPONENT LABELS</b>: fluid outlet, shellside inlet, vent, tubes, baffles, outlet,
+                            helical baffles, intermediate shellside fluid inlet, shell circumference, shellside fluid
+                            outlet, baffle, manifold, manifolds, tubeside inlet manifold, proximate shellside outlet,
+                            shellside fluid inlet, inlet, p=, proximate shellside inlet, gas/gas proximate outlet,
+                            exchanger, heat exchanger, fluid inlet, shell
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="align-middle" style="font-size: 22px;">
+                        <span class="fw-bold">Relevance</span> &nbsp;&mdash;&nbsp;
+                        <span class="ms-3 fw-bold">Visual:</span>
+                        <span class="text-danger display-6 align-middle">✖</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Semantic:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Part-whole:</span>
+                        <span class="text-danger display-6 align-middle">✖</span>
+                    </td>
+                </tr>
+                <tr class="pair-separator">
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <i>Image Pair 2</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/a163f7f2cea06b62b07215f7b1d014b11447aee9.png" alt="Query 2"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Query
+                                <a href="https://worldwide.espacenet.com/patent/search?q=WO2022037907A1"
+                                    target="_blank">WO2022037907A1</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: WIND TURBINE OPERATION IN EXTREME WIND CONDITIONS
+                            <br />
+                            <b>DESCRIPTION</b>: Figure 1 shows a wind turbine according to an exemplary embodiment of
+                            the invention.
+                            <br />
+                            <b>COMPONENT LABELS</b>: rotational axis, rotor blades, blade, depicted control system,
+                            electromechanical transducer, stator arrangement, generator, hub, control system, blade
+                            angle adj ustment device, yaw system, brake, shaft, tower, blades, devices, wind parameter
+                            determination device, orientation determination device, adj ustment device, nacelle, gear
+                            box, wind turbine, rotor arrangement
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/cc5f130fe7aefd8b28cd8b006ea6a38be7ba2272.png" alt="Candidate 2"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Candidate
+                                <a href="https://worldwide.espacenet.com/patent/search?q=US9127644B2"
+                                    target="_blank">US9127644B2</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: Wind turbine and an associated control method
+                            <br />
+                            <b>DESCRIPTION</b>: FIG. 8 is an illustrative drawing of the forces acting on the wind
+                            turbine of FIG. 6 during an extreme wind condition.
+                            <br />
+                            <b>COMPONENT LABELS</b>: arrow, wind turbine structure, lift force, total lift force, tower,
+                            wind turbine tower, reduced extreme thrust force, nacelle, forces, resultant vector force,
+                            drag force, tower structure, wind turbine nacelle, total drag force, wind
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="align-middle" style="font-size: 22px;">
+                        <span class="fw-bold">Relevance</span> &nbsp;&mdash;&nbsp;
+                        <span class="ms-3 fw-bold">Visual:</span>
+                        <span class="text-danger display-6 align-middle">✖</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Semantic:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Part-whole:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                    </td>
+                </tr>
+                <tr class="pair-separator">
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <i>Image Pair 3</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/42816d3f2f0543fd460952a7da5a6f93601dad13.png" alt="Query 3"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Query
+                                <a href="https://worldwide.espacenet.com/patent/search?q=US2022388611A1"
+                                    target="_blank">US2022388611A1</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: GYRO STABILIZER
+                            <br />
+                            <b>DESCRIPTION</b>: FIG. 1 illustrates in a perspective view an embodiment of a gyro
+                            stabilizer 1 according to the invention.
+                            <br />
+                            <b>COMPONENT LABELS</b>: frame, active brake, brake, stator, stabilizer, stator element
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/435fa34914614b08c61a0550596b737566c73d9d.png" alt="Candidate 3"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Candidate
+                                <a href="https://worldwide.espacenet.com/patent/search?q=CA2555108A1"
+                                    target="_blank">CA2555108A1</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: SNOW VEHICLE
+                            <br />
+                            <b>DESCRIPTION</b>: Fig. 21 is a side view of an electric motor-driven embodiment of the
+                            gyroscopic stabilizer and steering aid, steering extension frame, and ski.
+                            <br />
+                            <b>COMPONENT LABELS</b>: powering gyroscope, runner, orient gyroscope, front extension
+                            frame, steering extension frame, ski biasing shock absorber, axle, extension frame, electric
+                            motor, shock absorber, ski pivot axle, motor wiring cable, steering aid, wiring cable, ski,
+                            bracket, stabilizer, gyroscope and extension frame, mounting bracket, motor, nut, ski pivot
+                            bracket, brackets, slider clamps, absorber, gyro axle, gyroscope
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="align-middle" style="font-size: 22px;">
+                        <span class="fw-bold">Relevance</span> &nbsp;&mdash;&nbsp;
+                        <span class="ms-3 fw-bold">Visual:</span>
+                        <span class="text-danger display-6 align-middle">✖</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Semantic:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Part-whole:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                    </td>
+                </tr>
+                <tr class="pair-separator">
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <i>Image Pair 4</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/d192db7d9585c90501fc590975b897c6f9d688bf.png" alt="Query 4"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Query
+                                <a href="https://worldwide.espacenet.com/patent/search?q=US2021083237A1"
+                                    target="_blank">US2021083237A1</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: BATTERY PACK
+                            <br />
+                            <b>DESCRIPTION</b>: FIG. 1 is a perspective view of an example battery pack.
+                            <br />
+                            <b>COMPONENT LABELS</b>: second side portion, user activation button, housing, opening, top
+                            portion, battery pack, portions, first side portion, bottom portion, line, latch assembly
+                            mechanism, portion, engaging portion
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/0781300557854d2adbc1b0bb9fb1c7834ca28556.png" alt="Candidate 4"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Candidate
+                                <a href="https://worldwide.espacenet.com/patent/search?q=AU2020101751A4"
+                                    target="_blank">AU2020101751A4</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: BATTERY PACK
+                            <br />
+                            <b>DESCRIPTION</b>: FIG. 2 is a perspective view of the battery pack of FIG. 1.
+                            <br />
+                            <b>COMPONENT LABELS</b>: battery pack, second latch portion, latch member, battery pack,
+                            housing, electric terminals, electrical terminals, latch mechanism, mechanism, latch
+                            mechanism, terminal block, slidable-type battery pack, latch member, actuator, actuator,
+                            rails, first and second latch portions, second latch portion, openings, first and second
+                            latch portions, terminal block, latch mechanism, button portion
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="align-middle" style="font-size: 22px;">
+                        <span class="fw-bold">Relevance</span> &nbsp;&mdash;&nbsp;
+                        <span class="ms-3 fw-bold">Visual:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Semantic:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Part-whole:</span>
+                        <span class="text-danger display-6 align-middle">✖</span>
+                    </td>
+                </tr>
+                <tr class="pair-separator">
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <i>Image Pair 5</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/fd6c5d223acaf4ac0d6b66dd5d485158ac887797.png" alt="Query 5"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Query
+                                <a href="https://worldwide.espacenet.com/patent/search?q=EP4046527A1"
+                                    target="_blank">EP4046527A1</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: SUITCASE COVERING ACCESSORY
+                            <br />
+                            <b>DESCRIPTION</b>: Fig. 30 and 31 show, respectively, the coating accessory of Fig. 17 to
+                            29 , in a first position, before being inserted onto the suitcase and in a second position
+                            after insertion on the suitcase.
+                            <br />
+                            <b>COMPONENT LABELS</b>: suitcase coating accessory, straps, opening, cabin suitcase
+                            accessory, storage pocket, pockets/compartments, cabin suitcase coating accessory,
+                            aforementioned problem, strap, accessory, coating accessory, convertible accessory, suitcase
+                            accessory, pockets
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure class="figure">
+                            <img src="static/images/a3fdd9452820e06786d43f55d2c33b9cf9ce13a8.png" alt="Candidate 5"
+                                class="img-thumbnail">
+                            <figcaption class="figure-caption text-center">
+                                Candidate
+                                <a href="https://worldwide.espacenet.com/patent/search?q=DE102013000350A1"
+                                    target="_blank">DE102013000350A1</a>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td class="text-start">
+                        <p>
+                            <b>TITLE</b>: Luggage saver for carrying e.g. backpacks, has sheet provided in form of
+                            rectangular or square shape, where edge portions of sheet are provided with two opposite
+                            recesses in central regions for wheels to move luggage
+                            <br />
+                            <b>DESCRIPTION</b>: Fig. 3 eine schematische, perspektivische Ansicht von links oben auf ein
+                            kofferartiges zu schonendes Reisegepäck (5) mit ausziehbarem Griff (11) und vier Rüdern
+                            (14).
+                            <br />
+                            <b>COMPONENT LABELS</b>: länge, breite, zu schonenden reisegepäck, dann rücckseitigen
+                            lateralen bereich, griff, obenliegenden bereich, reisegepäck, bereiche, frontseitige
+                            laterale bereich, gepäckstüccke, zu schonendes reisegepäck, reisegepäckes, rücckseitige
+                            laterale bereich, zu schonenden reisegepäckes, reisegepäck-hühe, rädern, dann frontseitigen
+                            lateralen bereich, dann untenliegenden bereich, räder, zu schonende reisegepäck,
+                            gegenücberliegenden seitlichen bereichen
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="align-middle" style="font-size: 22px;">
+                        <span class="fw-bold">Relevance</span> &nbsp;&mdash;&nbsp;
+                        <span class="ms-3 fw-bold">Visual:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Semantic:</span>
+                        <span class="text-danger display-6 align-middle">✖</span>
+                        &nbsp;|&nbsp;
+                        <span class="ms-3 fw-bold">Part-whole:</span>
+                        <span class="text-success display-6 align-middle">✔</span>
+                    </td>
+                </tr>
+                <tr class="pair-separator">
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

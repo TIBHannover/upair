@@ -70,3 +70,16 @@ body {
     .title { font-size: 2rem; }
     .subtitle { font-size: 1.1rem; }
 }
+
+.full-width-bg {
+    width: 100vw;               
+    background-color: #f3f3f3; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.pair-separator > td {
+  border-left: 1px solid transparent !important;
+  border-right: 1px solid transparent !important;
+}
